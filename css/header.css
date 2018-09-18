@@ -1,0 +1,50 @@
+.header-link {
+    font-size: 12px;
+    font-weight: bold;
+}
+header .logo-container {
+    max-height: 43px;
+    max-width: 200px;
+}
+
+.iconsvg {
+    font-size: 1px;
+    vertical-align: middle;
+    display: inline-block;
+    background-image: url('https://e00-marca.uecdn.es/assets/v12/img/sprites/sprites-1536648823363.svg');
+    background-repeat: no-repeat;
+}
+
+.icon-es {
+    background-position: -1px -557px;
+    width: 24px;
+    height: 24px;
+}
+
+.active .icon-es {
+    background-position: -1px -583px;
+}
+
+.icon-mx {
+    background-position: -1px -609px;
+    width: 24px;
+    height: 24px;
+}
+
+.icon-col {
+    background-position: -1px -453px;
+    width: 24px;
+    height: 24px;
+}
+
+.icon-ar {
+    background-position: -1px -369px;
+    width: 24px;
+    height: 14px;
+}
+
+.icon-en {
+    background-position: -1px -505px;
+    width: 24px;
+    height: 24px;
+}
