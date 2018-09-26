@@ -48,3 +48,49 @@ header .logo-container {
     width: 24px;
     height: 24px;
 }
+
+#mainNav .dropdown-menu {
+    width: calc(100vw - 10rem);
+}
+
+#mainNav .nav-item.dropdown.show,
+#mainNav .dropdown-menu,
+#mainNav .dropdown-item:hover {
+    background-color: rgba(20,29,37,0.97);
+}
+
+#mainNav div.dropdown-item {
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#mainNav div.dropdown-item a {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#mainNav div.dropdown-item a:first-of-type {
+    margin-left: 0px;
+}
+
+#dropdownMenuBaloncesto {
+    left: -79px;
+}
+#dropdownMenuMotor {
+    left: -189px;
+}
+#dropdownMenuPolideportivo {
+    left: -267px;
+}
+
+@media only screen and (max-width: 767px) {
+    #mainNav .nav-item {
+        padding-left: 15px !important;
+    }
+}
+
+#teams {
+    background-color: #eeeeee;
+}
